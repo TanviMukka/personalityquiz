@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Personality Quiz</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <header class="quiz-header">
+    <h1 id="main-header">Are you a vibe coder or a traditional developer?</h1>
+    <p id="main-desc">Find out which one you are based on your grocery shopping style.</p>
+  </header>
+
+  <main class="quiz-container">
+
+    <!-- Question 1 -->
+    <section class="question-card">
+      <h2 class="question-title">How do you walk through the grocery store aisles?</h2>
+      <div class="answers-grid">
+
+        <div class="choice-card">
+          <img src="assets/q1_ans1.jpg" alt="Aerial view of the inside of a grocery store." class="images">
+          <button id="q1a1" class="choice-btn">Picking up whatever looks good in the moment.</button>
+        </div>
+
+        <div class="choice-card">
+          <img src="assets/q1_ans2.jpg" alt="In between two aisles in a grocery store." class="images">
+          <button id="q1a2" class="choice-btn">Follow an organized path according to a list.</button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Question 2 -->
+    <section class="question-card">
+      <h2 class="question-title">What do you do when an item on your shopping list is out of stock?</h2>
+      <div class="answers-grid">
+
+        <div class="choice-card">
+          <img src="assets/q2_ans1.jpg" alt="Part of the dairy aisle in a grocery store with one of the items missing in between." class="images">
+          <button id="q2a1" class="choice-btn">Grab the nearest alternative without overthinking it.</button>
+        </div>
+
+        <div class="choice-card">
+          <img src="assets/q2_ans2.jpg" alt="A person comparing two different bottles of shampoo." class="images">
+          <button id="q2a2" class="choice-btn">Spend some time comparing items for the best replacement.</button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Question 3 -->
+    <section class="question-card">
+      <h2 class="question-title">How do you unload your groceries at home?</h2>
+      <div class="answers-grid">
+
+        <div class="choice-card">
+          <img src="assets/q3_ans1.jpg" alt="Two bags of groceries on the kitchen counter." class="images">
+          <button id="q3a1" class="choice-btn">Pile everything on the counter and put items away later.</button>
+        </div>
+
+        <div class="choice-card">
+          <img src="assets/q3_ans2.jpg" alt="Groceries sorted and organized in a kitchen pantry." class="images">
+          <button id="q3a2" class="choice-btn">Categorize items immediately in a specific order.</button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Result & Restart Section -->
+    <section id="result-container" class="result-section">
+      <h2 id="result">You are a...</h2>
+      <button id="restart" class="restart-btn">Restart</button>
+    </section>
+
+  </main>
+
+</body>
+
+</html>
